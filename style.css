@@ -1,0 +1,314 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Koulen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ESTILO GERAL */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        background-color: #0a0a0a;
+        height: 100vh;
+    }
+
+    .interface{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    .btn-contato button{
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    button:hover{
+        box-shadow: 0px 0px 8px #ffffff9f;
+        transform: scale(1.05);
+    }
+
+    h2.titulo{
+        color: #fff;
+        font-size: 38px;
+        text-align: center;
+    }
+
+/* ESTILO HEADER */
+    header{
+        padding: 40px 4%;
+        position: fixed;
+        width: 100%;
+        height: 15%;
+        top: 0;
+        background-color: #0a0a0a;
+        z-index: 1000;
+    }
+
+    header > .interface{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .logo img{
+        width: 100px;
+        height: auto;
+    }
+
+    header a{
+        color: #5c5c5c;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s;
+    }
+
+    header a:hover{
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+    header nav ul{
+        list-style-type: none;
+    }
+
+    header nav ul li{
+        display: inline-block;
+        padding: 0 40px;
+    }
+
+    /* ESTILO TOPO DO SITE */
+
+        section.topo-do-site{
+            padding: 200px 35% 150px 35%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section.topo-do-site .txt-topo-site .flex{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .topo-do-site .txt-topo-site h1{
+            color: #fff;
+            font-size: 42px;
+            line-height: 40px;
+        }
+
+        .topo-do-site{
+            text-align: center;
+        }
+
+        .topo-do-site .txt-topo-site p{
+            color: #fff;
+            margin: 40px 0px;
+        }
+
+    /* ESTILO ESPECIALIDADES */
+
+        section.especialidades{
+            padding: 40px 4%;
+        }
+
+        section.especialidades .flex{
+            gap: 60px;
+        }
+
+        .especialidades .especialidades-box{
+            color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 45px;
+            transition: 0.2s;
+        }
+
+        .especialidades .especialidades-box:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 8px #ffffffa1;
+        }
+
+        .especialidades .especialidades-box i{
+            font-size: 70px;
+        }
+
+        .especialidades .especialidades-box h3{
+            font-size: 28px;
+            margin: 15px 0;
+        }
+
+        .especialidades .especialidades-box a{
+            color: #fff;
+        }
+
+    /*ESTILOS SOBRE*/
+        
+        section.sobre{
+            padding: 40px 4%;
+        }
+
+        section.sobre .flex{
+            align-items: center;
+            gap: 60px;
+        }
+
+        .sobre .img-sobre img{
+            width: 25vw;
+            border-radius: 40px;
+            filter: grayscale();
+        }
+
+        .sobre .txt-sobre{
+            color: #fff;
+        }
+
+        .sobre .txt-sobre h2{
+            font-size: 40px;
+            line-height: 40px;
+            margin-bottom: 30px;
+        }
+
+        .sobre .txt-sobre h2 span{
+            display: block;
+        }
+
+        .sobre .txt-sobre p{
+            margin: 20px 0;
+            text-align: justify;
+        }
+
+        .btn-social button{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: none;
+            font-size: 25px;
+            cursor: pointer;
+            margin: 0 5px;
+            transition: 0.2s;
+        }
+
+    /*ESTILOS PROJETO*/
+
+        section.portfolio{
+            padding: 80px 4%;
+            box-shadow: 0 0 40px 10px #ffffff1d;
+        }
+
+        section.portfolio .flex{
+            justify-content: center;
+            gap: 100px;
+            margin-top: 60px;
+        }
+
+        .img-port{
+            width: 360px;
+            height: 460px;
+            background-color: #fff;
+            background-size: cover;
+            transition: 3s;
+            cursor: pointer;
+            border-radius: 40px;
+            position: relative;
+        }
+
+        .img-port:hover{
+            background-position: 100% 100%;
+        }
+
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000000b8;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .overlay:hover{
+            opacity: 1;
+        }
+
+        .overlay a{
+            color: #fff;
+        }
+    
+    /*ESTILOS CONTATO*/
+        section.formulario{
+            padding: 40px 0px;
+        }
+
+        section.formulario .titulo{
+            margin: 60px;
+        }
+
+        section.formulario .contato{
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 400;
+            color: #fff; 
+            margin-bottom: 80px;
+        }
+
+        section.formulario .contato .contato-dados{
+            background-color: #313131;
+            width: 30%;
+            height: 100px;
+            padding-top: 1.5%;
+            border-radius: 40px;
+            text-align: center;
+        }
+
+        section.formulario .contato .contato-dados a{
+            color: #fff;
+        }
+
+    /*ESTILO RODAPE*/
+        footer{
+            padding: 60px 4%;
+            box-shadow: 0 0 40px 10px #ffffff1d;
+        }
+
+        footer .flex{
+            justify-content: space-between;
+        }
+
+        footer .line-footer{
+            padding: 20px 0px;
+        }
+
+        .borda {
+            border-top: 2px solid #fff;
+        }
+
+        .borda a{
+            color: #fff;
+        }
+
+        .borda a i{
+            font-size: 25px;
+        }
