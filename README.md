@@ -32,4 +32,4 @@ Agradeço por visitar meu portfólio pessoal e por considerar meu trabalho.
 
 ## Visualização
 
-Vercel: [https://portfolio-ten-omega-51.vercel.app/#portfolio](https://portfolio-ten-omega-51.vercel.app/#portfolio).
+Vercel: [https://portfolio-ten-omega-51.vercel.app/](https://portfolio-ten-omega-51.vercel.app/).
