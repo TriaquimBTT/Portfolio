@@ -1,4 +1,4 @@
-# Portfólio Pessoal - Seu Nome
+# Portfólio Pessoal - Gustavo Triaquim
 
 ## Descrição
 
@@ -11,7 +11,7 @@ Este é o meu portfólio pessoal, projetado para apresentar meu trabalho, habili
 3. **Sobre**: Fornece informações sobre mim, minhas experiências, incluindo minhas redes sociais.
 4. **Projetos**: Apresenta meus projetos realizados ou em andamento.
 5. **Formas de Contato**: Contém informações sobre como entrar em contato comigo.
-6. **Design Responsivo**: Garante que o site seja acessível e tenha uma boa aparência em dispositivos de diferentes tamanhos.
+6. **Design Responsivo**: Garante que o site seja acessível e tenha uma boa aparência em desktops de diferentes tamanhos.
 
 ## Tecnologias Utilizadas
 
