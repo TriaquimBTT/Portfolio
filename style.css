@@ -312,3 +312,105 @@
         .borda a i{
             font-size: 25px;
         }
+
+        @media screen and (max-width: 1080px) {
+            /* CLASSES GERAIS */
+            .flex {
+                flex-direction: column;
+            }
+            
+            h2.titulo{
+                font-size: 38px;
+                line-height: 40px;
+            }
+
+            /* CABECALHO */
+            header {
+                background-color: transparent; 
+                position: static; 
+            }
+        
+            .desktop,
+            .btn-contato {
+                display: none;
+            }
+        
+            /* TOPO DO SITE */
+            section.topo-do-site {
+                padding: 100px 8%;
+            }
+            
+            section.topo-do-site .flex{
+                gap: 40px;
+            }
+
+            .topo-do-site h1 {
+                font-size: 38px;
+            }
+
+            /*ESTILO ESPECIALIDDES*/
+            section.especialidades{
+                padding: 40px 8%;
+            }
+
+            /*ESTILO SOBRE*/
+            section.sobre{
+                padding: 40px 8%;
+            }
+
+            .sobre .txt-sobre h2{
+                font-size: 34px;
+                line-height: 35px;
+                text-align: center;
+            }
+
+            .btn-social{
+                text-align: center;
+            }
+
+            .sobre .img-sobre img{
+                width: 100%;
+            }
+
+            /*ESTILO PORTFOLIO*/
+            section.portfolio{
+                padding: 80px 8%;
+            }
+
+            section.portfolio .flex{
+                gap: 60px;
+            }
+
+            .img-port{
+                width: 100%;
+                max-width: 360px;
+                margin: 0 auto;
+            }
+
+            /*ESTILO FORMULARIO*/
+            section.formulario {
+                padding: 40px 8%;
+            }
+
+            section.formulario .contato{
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff; 
+            }
+
+            section.formulario .contato .contato-dados{
+                width: 80%;
+                height: auto;
+                border-radius: 20px;
+            }
+
+            /*ESTILOS RODAPE*/
+            footer .flex{
+                gap: 30px;
+            }
+            
+            footer .line-footer{
+                text-align: center;
+            }
+        }
+        
