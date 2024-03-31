@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este é o meu portfólio pessoal, projetado para apresentar meu trabalho, habilidades e experiência profissional. Utiliza HTML e CSS para criar um site responsivo para desktop, hospedado na Vercel, e versionado no GitHub.
+Este é o meu portfólio profissional, projetado para apresentar meu trabalho, habilidades e experiência profissional. Utiliza HTML e CSS para criar um site responsivo para desktop, hospedado na Vercel, e versionado no GitHub.
 
 ## Funcionalidades e Informações Principais
 
