@@ -1,4 +1,4 @@
-# Portfólio Pessoal - Gustavo Triaquim
+# Portfólio Profissional - Gustavo Triaquim
 
 ## Descrição
 
